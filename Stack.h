@@ -10,7 +10,7 @@ template <typename T>
 class Stack : public LinkedList<T>{
 	public:
 		bool Delete(T& element) {
-		   if (this->first == NULL) {
+		   if (this->first == 0) {
 			return false; 
 		}
 
