@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "Stack.h"
 
-#define MAX_SIZE 10
+#define MAX_SIZE 30
 
 void prnMenu(){
 	cout<<"*******************************************"<<endl;
