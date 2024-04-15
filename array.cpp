@@ -2,18 +2,18 @@
 #include <cstdlib>
 #include<iostream>
 using namespace std;
-Array::Array(int size)
+Array::Array(int index)
 {
 	//사이즈를 확인하고 양수이면 new를 사용하여 배열 data를 할당, len값 초기화
-	if(size<0)
+	if(index<0)
 	{
 		cout << "Error : Not Suitable Size" << endl;
 
 	}
 	else
 	{
-		data=new int[size];
-		len=size;
+		data=new int[index];
+		len=index;
 	}
 }
 Array::~Array()
